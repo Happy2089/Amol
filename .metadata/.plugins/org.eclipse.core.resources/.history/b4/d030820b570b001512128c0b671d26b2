@@ -1,0 +1,8 @@
+package s1;
+
+public class Sleepin {
+
+	public boolean sleepIn(boolean weekday, boolean vacation) {
+		  return true;
+	}
+}

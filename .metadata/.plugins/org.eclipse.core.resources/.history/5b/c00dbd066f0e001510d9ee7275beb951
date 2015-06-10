@@ -1,0 +1,12 @@
+package testcases;
+
+import org.junit.Before;
+
+public class CountxxTest {
+
+
+	@Before
+	public void setup() {
+		cx = new Countxx();
+	}
+}

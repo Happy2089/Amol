@@ -1,0 +1,28 @@
+package s1;
+import org.junit.Assert;
+import org.junit.Before;
+import org.junit.Test;
+public class MonkeyTest {
+		
+	MonkeyTrouble mt;
+		
+	@Before
+		public void setup(){
+			mt = new Sleep ();
+		}
+		
+		@Test
+		public void  sleepIn(){
+			boolean expected=true;
+			boolean actual = sl.sleepIn(false,true);
+			if(!actual|| expected)
+			{
+				
+				System.out.println("If it is holiday "+actual);
+			}
+			Assert.assertEquals(actual, expected);
+		}
+
+			
+	}
+	

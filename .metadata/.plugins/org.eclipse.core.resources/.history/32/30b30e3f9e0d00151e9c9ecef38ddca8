@@ -1,0 +1,38 @@
+package s1;
+import java.util.Scanner;
+
+import org.junit.Assert;
+import org.junit.Before;
+import org.junit.Test;
+public class SumTest {
+		
+	Sum mt;
+		
+	@Before
+		public void setup(){
+			mt = new Sum ();
+		}
+		
+		@Test
+		public void  sumDouble(int n1,int n2){
+			int double1=n1*2;
+			int actual = mt.sumDouble(1,2);
+			if(actual==double1)
+			{
+				
+				System.out.println("no is equal "+actual);
+			}
+			else
+			{
+				System.out.println("no   is not equal "+actual);
+			}
+			Assert.assertEquals(actual,double1);
+		}
+
+		public void sumTest()
+		{
+			sumDouble(1,2);
+			sumDouble(1,1);
+		}
+	}
+	

@@ -1,0 +1,15 @@
+package s1;
+
+public class MonkeyTrouble {
+
+	
+	public boolean monkeyTrouble(boolean aSmiles,boolean bsmiles)
+	{
+		if(aSmiles && bSmiles || !aSmiles && !bSmiles )
+		{
+			
+		}
+		return bsmiles;
+		
+	}
+}

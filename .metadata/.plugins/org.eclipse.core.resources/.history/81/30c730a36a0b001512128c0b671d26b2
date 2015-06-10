@@ -1,0 +1,12 @@
+package s1;
+
+public class MonkeyTrouble {
+
+	
+	public boolean monkeyTrouble(boolean aSmiles,boolean bsmiles)
+	{
+		
+		return bsmiles;
+		
+	}
+}

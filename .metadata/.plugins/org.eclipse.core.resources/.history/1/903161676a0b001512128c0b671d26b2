@@ -1,0 +1,32 @@
+package s1;
+import org.junit.Assert;
+import org.junit.Before;
+import org.junit.Test;
+public class MonkeyTest {
+		
+	MonkeyTrouble mt;
+		
+	@Before
+		public void setup(){
+			mt = new MonkeyTrouble ();
+		}
+		
+		@Test
+		public void  monkeyTrouble(){
+			boolean trouble=true;
+			boolean actual = mt.monkeyTrouble(false,true);
+			if(actual==trouble)
+			{
+				
+				System.out.println("monkey is good "+actual);
+			}
+			else
+			{
+				System.out.println("please treat monkey");
+			}
+			Assert.assertEquals(actual, trouble);
+		}
+
+			
+	}
+	

@@ -1,0 +1,33 @@
+package s1;
+import org.junit.Assert;
+import org.junit.Before;
+import org.junit.Test;
+public class SumTest {
+		
+	Sum mt;
+		
+	@Before
+		public void setup(){
+			mt = new Sum ();
+		}
+		
+		@Test
+		public void  monkeyTrouble(){
+			int n1;
+			int n2;
+			int actual = mt.sumDouble(1,2);
+			if(actual==no)
+			{
+				
+				System.out.println("monkey is  noughty "+actual);
+			}
+			else
+			{
+				System.out.println("monkey  is good");
+			}
+			Assert.assertEquals(actual, no);
+		}
+
+			
+	}
+	

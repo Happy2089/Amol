@@ -1,0 +1,22 @@
+package testcases;
+import org.junit.Assert;
+import org.junit.Before;
+import org.junit.Test;
+
+import examples.MonkeyTrouble;
+import examples.StringTimes;
+public class StringTimesTest {
+
+	StringTimes stt;
+	@Before
+	public void setup() {
+		stt = new StringTimes();
+	}
+	public void stringTest(String str,int n)
+	{
+       String  actual=stt.stringTimes(str, n);
+	   
+	}
+	
+	
+}

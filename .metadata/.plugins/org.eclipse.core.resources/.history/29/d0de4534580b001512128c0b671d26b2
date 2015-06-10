@@ -1,0 +1,31 @@
+package s1;
+import org.junit.Assert;
+import org.junit.Before;
+import org.junit.Test;
+public class SleepinTestcase {
+
+	Sleep sl;
+	boolean weekday;
+	boolean vacation;
+	@Before
+	public void setup(){
+		sl = new Sleep ();
+	
+	}
+	
+	@Test
+	public void  sleepIn(){
+		String name = "Amol";
+		String ex = "Hello Amol!";
+		boolean actual = sl.sleepIn(boolean weekday, boolean vacation);
+		if(!ex.equals(actual)){
+			System.out.println("Did not match for :" + name);
+		}
+		Assert.assertEquals(actual, ex);
+	}
+
+		
+	
+	
+	
+}

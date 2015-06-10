@@ -1,0 +1,30 @@
+package testcases;
+
+import org.junit.Before;
+import org.junit.Test;
+
+import examples.Countxx;
+
+public class CountxxTest {
+Countxx cx;
+
+	@Before
+	public void setup() {
+		cx = new Countxx();
+	}
+	
+	public void  count(String str)
+	{
+		
+		int actual=cx.countxx(str);
+		
+		
+	}
+	
+	@Test
+	public void count1()
+	{
+		count("xxx");
+		count("xxxx");
+	}
+}

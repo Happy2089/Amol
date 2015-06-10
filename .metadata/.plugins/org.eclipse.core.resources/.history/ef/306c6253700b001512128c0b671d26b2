@@ -1,0 +1,6 @@
+package s1;
+
+public class Sum {
+
+	public boolean sumDouble(int a,int b)
+}
